@@ -1,0 +1,30 @@
+{
+  "name": "dom-inate",
+  "version": "1.0.0",
+  "description": "Basic high-level DOM animation",
+  "main": "./lib/index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+    "css-color-names": "^0.0.2",
+    "charge": "1.1.0"
+  },
+  "devDependencies": {
+    "debug": "~2.2.0",
+    "jasmine": "~2.3.2"
+  },
+  "files": ["lib"],
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "animation",
+    "animate",
+    "DOM"
+  ],
+  "author": "Reece Hudson <reecehudson10@gmail.com>",
+  "license": "MIT"
+}

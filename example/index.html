@@ -1,0 +1,23 @@
+<head>
+
+</head>
+<body>
+	<div class="box" id="0"></div>
+	<div class="box" id="1"></div>
+	<div class="box" id="2"></div>
+	<script type="text/javascript">
+	  var addN = 8;
+	  var id = 3;
+	  var el;
+	  while (addN--) {
+	    el =window.document.createElement("div");
+	    el.className = "box";
+	    el.id = id++;
+      document.body.appendChild(el);
+	  }
+	</script>
+	<link rel="stylesheet" type="text/css" href="./index.css"/>
+	<script src="./tools.js" type="text/javascript"></script>
+	<script src="./index.js" type="text/javascript"></script>
+
+</body>
